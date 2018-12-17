@@ -10,8 +10,7 @@ To run build minified code on ./dist folder --content-base should be defined.
      "build": "webpack --mode production",
      "start": "webpack-dev-server --mode development --open"
      
-when npm start is run it created compiled files but files are not created inside ./dist folder as it aims to render page fast on browser ,
-to create files inside dist folder crun script ( as mentioned in point 1) should be used.
+when npm run start is executed code is compiled and rendered on localhost server but no physical files are created inside ./dist folder as webpack's hot reloading aims to render page fast on browser, to create files inside dist folder crun script ( as mentioned in point 1) should be used.
 
 
 
